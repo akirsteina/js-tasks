@@ -3,10 +3,10 @@
 
 function getFormvalue(submitEvent) {
     submitEvent.preventDefault();
-    const FirstNameElement =  document.getElementById('FirstName');
-    const LastNameElement =  document.getElementById('LastName');
-    const FirstName = FirstNameInputElement.value;
-    const LastName = LastNameInputElement.value;
+    const FirstNameElement = document.getElementById('FirstName');
+    const LastNameElement = document.getElementById('LastName');
+    const FirstName = FirstNameElement.value;
+    const LastName = LastNameElement.value;
+    console.log(FirstName);
+    console.log(LastName);
 }
-    console.log (FirstName);
-    console.log (LastName);
