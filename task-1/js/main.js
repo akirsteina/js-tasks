@@ -7,7 +7,7 @@
 // // Clicking on the button the font, font size, 
 // and color of the paragraph text will be changed.
 
-function js_style() {
+function jsStyle() {
     const pElement = document.getElementById('text');
     if (pElement.style.color === 'red') {
         pElement.style.color = 'black';
